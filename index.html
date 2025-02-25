@@ -9,35 +9,90 @@
 	<meta name="keywords" content="LOTR, władca, Władca Pierścieni, Drużyna Pierścienia, Dwie Wieże, Powrót Króla"/>
 	<!--This ensures the website opens in the Edge Browser-->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+	<!--The structure of the website is written in HTML, apperance in CSS-->
+	<style>
+	#container
+	{
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#logo
+	{
+		background-color: black;
+		color: white;
+		text-align: center;
+		padding: 15px;
+	}
+	#nav
+	{
+		float: left;
+		background-color: lightgrey;
+		width: 120px;
+		min-height: 620px;
+		padding: 10px;
+
+	}
+	#content
+	{
+		float: left;
+		padding: 20px;
+		width: 640px;
+
+	}
+	#ad
+	{
+		float: left;
+		width: 160px;
+		min-height: 620px;
+		padding: 10px;
+		background-color: lightgray;
+
+	}
+	#footer
+	{
+		clear: both;
+		background-color: black;
+		color: white;
+		text-align: center;
+		padding: 20px;
+	}
+	</style>
+
 </head>
 
 <!--Visual contents of the website-->
 <body>
-	<h1>Postacie</h1>
- 
-	<a href="https://en.wikipedia.org/wiki/Gandalf" target="_blank" title="Węcej o czarodzieju!">
-		Gandalf 
-	</a>
 	
-	<br/>
-	
-	<a href="https://en.wikipedia.org/wiki/Gandalf" target="_blank" title="Głupi Tuk!">
-		<img src="img/gandalf.jpg"/>
-	</a>
+	<div id="container">
 
-	<br/>
+		<div id="logo">
+			<h1>Przewodnik po Śródziemiu</h1>
+		</div>
 
-	<a href="https://en.wikipedia.org/wiki/Frodo" target="_blank" title="Więcej o Hobbicie!">
-		Frodo Baggins
-	</a>
+		<div id="nav">
+			Fabuła <br/>
+			Postacie <br/>
+			Mapa Śródziemia <br/>
+			Przedmioty Mocy <br/>
+			Cytaty Gandalfa <br/>
+		</div>
 
-	<br/>	
+		<div id="content">
+			<h2>Fabuła</h2>
+			Akcja powieści rozpoczyna się 60 lat po wydarzeniach opisanych w Hobbicie. Czarodziej Gandalf po przybyciu do Shire, kraju hobbitów odkrywa, że magiczny pierścień będący w posiadaniu hobbita Bilbo Bagginsa to w rzeczywistości Jedyny Pierścień stworzony przez władcę ciemności, Saurona, który pozwala kontrolować inne Pierścienie Władzy. Jeśli Sauron odzyska pierścień całe Śródziemie czeka zagłada, a jedynym sposobem na jego zniszczenie jest wrzucenie go do krateru Orodruiny, gdzie został wykuty. Zadania tego podejmuje się krewny Bilba, Frodo. Przydzielona zostaje mu drużyna, która ma go wspomagać. Jednak wskutek różnych wypadków jej członkowie rozdzielają się, a Frodo razem z Samem kontynuuje swą niebezpieczną misję. Jest to dość trudne zadanie, ponieważ Jedyny Pierścień budzi silne pożądanie w swoich posiadaczach, którzy nie mają dostatecznie silnej woli, by mu się przeciwstawić. Ich przewodnikiem zostaje Gollum, stwór, który był kiedyś w posiadaniu pierścienia i za wszelką cenę chce go odzyskać. Tymczasem reszta Śródziemia na czele z Gandalfem i następcą tronu Gondoru, Aragornem szykuje się na wojnę z armiami Saurona. Losy Śródziemia zależą jednak od dwójki hobbitów i ich misji.
+		</div>
 
-	<a href="https://en.wikipedia.org/wiki/Frodo" target="_blank" title="Gdzie mój Sam?">
-		<img src="img/frodo.jpg"/>
-	</a>
+		<div id="ad">
+			<img src="img/banner.jpg"/>
+		</div>
 
+		<div id="footer">
+			Przewodnik po Śródziemiu &copy; Wszelkie prawa zastrzeżone.
+		</div>
 
+	</div>
 
 </body>
 
