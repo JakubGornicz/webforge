@@ -1,0 +1,107 @@
+body
+{
+	background-color: #404040;
+	font-family: "Lato", sans-serif;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo
+{
+	color: white;
+	font-size: 44px;
+	letter-spacing: 3px;
+	font-weight: 900;
+	padding: 10px;
+}
+
+.option
+{
+	float: left;
+	color: white;
+	font-size: 18px;
+	padding: 20px;
+	border-right: 2px dotted #444444;
+	cursor: pointer;
+}
+
+.option:hover
+{
+	background-color: black;
+}
+
+#menu
+{
+	margin-top: 20px;
+	background-color: #202020;
+	opacity: 0.8;
+}
+
+#topbarL
+{
+	float: left;
+	padding: 20px;
+	width: 138px;
+	text-align: center;
+	border-right: 2px dotted white; 
+}
+
+#topbarR
+{
+	float: left;
+	padding: 20px;
+	width: 760px;
+	text-align: justify;
+}
+
+#topbar
+{
+	margin-top: 20px;
+	background-color: #36a17c;
+	color: white;
+	padding: 10px;
+	margin-bottom: 25px;
+	height: 170px;
+}
+
+.optionL
+{
+	color: white;
+	font-size: 18px;
+	padding: 20px;
+	border-right: 2px dotted #444444;
+	cursor: pointer;
+}
+
+.optionL:hover
+{
+	background-color: black;
+	
+}
+
+
+#sidebar
+{
+	float: left;
+	background-color: #707070;
+	width: 150px;
+	min-height: 600px;
+	font-size: 18px;
+	padding: 20px;
+	border-right: 2px dotted #666666;
+}
+
+#content
+{
+	float: left;
+}
+
+#footer
+{
+
+}

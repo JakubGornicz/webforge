@@ -1,0 +1,77 @@
+
+body
+{
+    background-color: white;
+    font-family: Calibri;
+    font-size: 20px;
+    color: black;
+}
+
+h1
+{
+    font-size: 48px;
+}
+
+/*Nieodwiedzony link*/
+a:link
+{
+    color: yellow;
+}
+/*Odwiedzony link*/
+a:visited
+{
+    color: red;
+}
+/*Link po najechaniu kursorem*/
+a:hover
+{
+    color: yellow;
+}
+
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+#nav
+{
+    float: left;
+    background-color: lightgrey;
+    width: 120px;
+    min-height: 620px;
+    padding: 10px;
+
+}
+#content
+{
+    background-color: white;
+    float: left;
+    padding: 20px;
+    width: 640px;
+
+}
+#ad
+{
+    float: left;
+    width: 160px;
+    min-height: 620px;
+    padding: 10px;
+    background-color: lightgray;
+
+}
+#footer
+{
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
