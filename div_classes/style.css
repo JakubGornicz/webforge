@@ -38,6 +38,7 @@ body
 #menu
 {
 	margin-top: 20px;
+	padding: 15px;
 	background-color: #202020;
 	opacity: 0.8;
 }
@@ -57,6 +58,7 @@ body
 	padding: 20px;
 	width: 760px;
 	text-align: justify;
+	font-size: 16px;
 }
 
 #topbar
@@ -71,16 +73,17 @@ body
 
 .optionL
 {
-	color: white;
 	font-size: 18px;
 	padding: 20px;
-	border-right: 2px dotted #444444;
 	cursor: pointer;
+	border-bottom: 2px dotted #444444;
 }
 
 .optionL:hover
 {
-	background-color: black;
+	background-color: #f36742;
+	color: white;
+	cursor: pointer;
 	
 }
 
@@ -88,10 +91,10 @@ body
 #sidebar
 {
 	float: left;
-	background-color: #707070;
-	width: 150px;
-	min-height: 600px;
-	font-size: 18px;
+	background-color: lightgray;
+	width: 168px;
+	min-height: 700px;
+	text-align: center;
 	padding: 20px;
 	border-right: 2px dotted #666666;
 }
@@ -99,9 +102,35 @@ body
 #content
 {
 	float: left;
+	padding: 40px;
+	font-size: 16px;
+	width: 710px;
+	min-height: 660px;
+	background-color: lightgrey;
+	text-align: justify;
 }
 
 #footer
 {
+	clear: both;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 18px;
 
+}
+
+.bigtitle
+{
+	font-size: 32px;
+	letter-spacing: 2px;
+	font-weight: 900;
+}
+
+.dottedline
+{
+	height: 4px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	border-bottom: 2px dotted #444444;
 }
