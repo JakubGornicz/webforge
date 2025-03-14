@@ -1,0 +1,39 @@
+Palindrome:
+A string that reads the same forwards and backwards. Here, we're dealing with numeric palindromes, like "0110".
+
+Input:
+s: A string representing a number.
+n: The length of this string, which must not change.
+k: The maximum number of digit changes allowed.
+
+Objective:
+Transform s into the highest value palindrome possible within k changes.
+The string length cannot change, so leading zeros in the middle of the number are significant
+(e.g., "0110" is valid, "0011" isn't because altering length would be needed).
+
+Constraints:
+Each change can only alter one digit.
+You can only change digits, not remove or add them.
+If it's impossible to create a palindrome under the constraints, return "-1".
+
+HOW TO SOLVE:
+Compare from Both Ends:
+Start by comparing characters from both ends moving towards the center.
+
+Change Strategy:
+If characters don't match, you must change one or both.
+Prefer changing to '9' if possible since it's the highest digit, but only if you have changes left (k > 0).
+
+Handle Middle Digit for Odd Length Numbers:
+For odd-length strings, the middle digit can be changed to '9' if k > 0 and it increases value.
+
+Count Needed Changes:
+Calculate how many changes are needed to make s a palindrome.
+
+Check if Possible:
+If the number of needed changes exceeds k, return "-1".
+
+Make Changes:
+If possible, make the changes, prioritizing '9' for higher values.
+
+
